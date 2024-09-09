@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO a la CHILENAAAAA!!</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!--JS-->
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+</head>
+<body>
+    <section class="contenido-login">
+            <div class="contenido">
+            <form class="formulario" id="form" action="#" >
+                <h1>Registrate</h1>
+                <br>
+                <div class="input-contenido">
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" id="usuario" name="usuario" placeholder="Nombre Usuario" required minlength="4"
+                    title="Ingrese mínimo 4 carácteres">
+                </div>
+                <div class="input-contenido">
+                    <i class="fas fa-key icon"></i>
+                    <input type="password" id="password" name="password" placeholder="Ingresar Password" minlength="6" required>
+                </div>
+                <div class="input-contenido">
+                    <i class="fas fa-key icon"></i>
+                    <input type="password" id="password2" name="password2" placeholder="Vuelva a ingresa Password" minlength="6" required>
+                </div>
+                <div class="input-contenido">
+                    <i class="fas fa-envelope icon"></i>
+                    <input type="email" id="email" name="email" placeholder="Correo Electrónico" required
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Ejemplo: lucy@gmail.com">
+                </div>
+                <div class="input-contenido">
+                    <i class="fas fa-globe-americas"></i>
+                    <input type="text" id="direccion" name="direccion" placeholder="Dirección"required minlength="10"
+                    title="Ingrese mínimo 10 carácteres">
+                </div>
+                <div >
+                    <button type="submit" class="button">Registrate</button>
+                </div>
+                <br>
+                <p>Al registrarte, aceptas nuestras condiciones de uso y politicas de privacidad.</p>
+                <hr>
+                <p>¿Ya tienes una cuenta? <a href="index.html">Inicia Sesión</a></p>         
+            </form>   
+            </div>
+    </section>
+</body>
+</html>
